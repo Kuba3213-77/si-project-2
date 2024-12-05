@@ -1,3 +1,9 @@
+:root {
+  --font-family-1: "Rubik", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 span.first-name::after {
   content: "→";
 }
