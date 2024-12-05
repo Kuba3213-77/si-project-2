@@ -1,0 +1,3 @@
+span.first-name::after {
+  content: "•";
+}
