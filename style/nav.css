@@ -1,13 +1,13 @@
 nav {
   width: 20%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-  background-color: var(--color-brand-1);
   color: var(--color-text-1);
   flex-basis: 280px;
   gap: 15px;
+  margin: 20px;
 }
 nav .logo {
   margin-bottom: 20px;
@@ -19,31 +19,75 @@ nav ul li {
   display: flex;
   align-items: center;
 }
-nav .other {
-  margin-top: auto;
-}
+
 .menu > ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 5px;
 }
-.other,
-span > ul,
-span {
-  display: flex;
-  flex-direction: column;
-  gap: 20rem;
-}
+
 .other > ul {
   position: relative;
   bottom: 300px;
+  gap: 5px;
 }
 .user {
   background-color: #fff;
   border-radius: 12px;
-  padding: 18px;
-  margin: 0 8px;
+  margin: 10px;
+
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.other > h5 {
+  opacity: 0.55;
+}
+.other > ul {
+  display: flex;
+  flex-direction: column;
+}
+.menu > a > span {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+li {
+  padding: 8px;
+}
+li:hover {
+  background-color: var(--background-color-1);
+  border-radius: 16px;
+  transition: 0.2s;
+}
+.menu ul li a,
+.other ul li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.other > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  bottom: 0;
+}
+
+span > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
