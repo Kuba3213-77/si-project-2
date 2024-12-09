@@ -1,0 +1,49 @@
+nav {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-brand-1);
+  color: var(--color-text-1);
+  flex-basis: 280px;
+  gap: 15px;
+}
+nav .logo {
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+nav .other {
+  margin-top: auto;
+}
+.menu > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.other,
+span > ul,
+span {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+.other > ul {
+  position: relative;
+  bottom: 300px;
+}
+.user {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
