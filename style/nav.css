@@ -1,3 +1,6 @@
+h2 > span {
+  color: var(--color-text-2);
+}
 nav {
   width: 20%;
   height: 100%;
@@ -25,29 +28,28 @@ nav ul li {
   flex-direction: column;
   gap: 5px;
 }
-
-.other > ul {
-  position: relative;
-  bottom: 300px;
-  gap: 5px;
-}
 .user {
   background-color: #fff;
   border-radius: 12px;
   padding: 20px;
-  margin: 20px;
+
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  width: 100%;
 }
 .user img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background-color: #e6e6e6;
+}
+img {
+  width: 15%;
+  height: 15%;
 }
 .user h4 {
   font-size: 1.2rem;
@@ -76,6 +78,8 @@ nav ul li {
 .copyright {
   margin-top: 20px;
   text-align: center;
+  opacity: 0.65;
+  font-size: 15px;
 }
 
 .other > h5 {
@@ -127,4 +131,26 @@ span > ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+ul > li > a > .notifications-icon {
+  display: flex;
+  gap: 0.5rem;
+}
+
+ul > li > a > .notifications-span {
+  display: flex;
+  flex-grow: 1;
+}
+
+ul > li > a > .badge {
+  background-color: var(--background-color-1);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80%;
+  font-weight: bold;
 }
