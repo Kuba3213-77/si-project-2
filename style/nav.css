@@ -55,7 +55,10 @@ img {
   font-size: 1.2rem;
   color: #333;
 }
-.user .first-name {
+.job {
+  font-size: 12px;
+}
+.user span {
   font-size: 18px;
   color: #777;
 }
@@ -74,11 +77,12 @@ img {
 }
 
 .user a:hover {
+  opacity: 0.7;
 }
 .copyright {
   margin-top: 20px;
   text-align: center;
-  opacity: 0.65;
+  opacity: 0.55;
   font-size: 15px;
 }
 
@@ -153,4 +157,9 @@ ul > li > a > .badge {
   align-items: center;
   font-size: 80%;
   font-weight: bold;
+}
+
+span.hour {
+  display: flex;
+  text-align: center;
 }
