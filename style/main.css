@@ -16,6 +16,8 @@ main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  margin-left: 280px;
+  padding: 20px;
 }
 .left-side {
   display: flex;
@@ -119,6 +121,10 @@ img {
   cursor: pointer;
   margin-right: 10px;
   font-size: 18px;
+}
+span.right-arrow {
+  margin: 0.5rem;
+  opacity: 0.55;
 }
 .food-and-drinks {
   margin-right: 4px;
