@@ -105,6 +105,9 @@ img {
 .other > ul {
   display: flex;
   flex-direction: column;
+  gap: 0.2rem;
+  position: relative;
+  bottom: 0;
 }
 .menu > a > span {
   display: flex;
@@ -135,14 +138,6 @@ li:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-.other > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  position: relative;
-  bottom: 0;
 }
 
 span > ul {
